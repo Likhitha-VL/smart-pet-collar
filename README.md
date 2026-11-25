@@ -1,30 +1,51 @@
-# Smart Pet Collar – Health Monitoring and Location Tracking
+Smart Pet Collar – Health Monitoring and Location Tracking
 
-## Project Overview
+Project Overview
 
-The Smart Pet Collar is an IoT-based system designed to monitor a pet's health parameters and track its location. It uses sensors, GPS and machine learning to monitor health conditions and provide alerts when abnormal conditions are detected.
+The Smart Pet Collar is an IoT-based system developed to monitor a pet's health parameters and track its location. The project combines embedded sensors, GPS technology and machine learning to support continuous health monitoring and identify potentially abnormal health conditions.
 
-## Technologies Used
+The system collects health-related data through sensors and uses a machine-learning model for health condition classification. It also provides location tracking and alerts to support pet monitoring.
 
-- **Hardware:** ESP32, MAX30100, Pulse Sensor, DS18B20 Temperature Sensor, NEO-6M GPS Module, 16x2 LCD
-- **Programming:** Python
-- **Machine Learning:** Random Forest, Decision Tree, SVM, Gaussian Naive Bayes, Logistic Regression
-- **Web Technologies:** HTML, CSS, JavaScript, Flask
-- **Cloud Platform:** ThingSpeak
-- **Mobile Application:** Blynk
+Project Objectives
 
-## Key Features
+- Monitor important health parameters of pets.
+- Track the pet's geographical location using GPS.
+- Apply machine-learning techniques to classify health conditions.
+- Provide alerts when abnormal conditions are detected.
+- Integrate hardware components with a software-based monitoring system.
 
-- Real-time heart rate monitoring
-- Blood oxygen (SpO2) monitoring
+Technologies Used
+
+Hardware Components
+
+- ESP32 microcontroller
+- MAX30100 sensor
+- Pulse sensor
+- DS18B20 temperature sensor
+- NEO-6M GPS module
+- 16×2 LCD display
+
+Software and Technologies
+
+- Programming: Python
+- Machine Learning: Random Forest, Decision Tree, Support Vector Machine (SVM), Gaussian Naive Bayes and Logistic Regression
+- Web Technologies: HTML, CSS and JavaScript
+- Backend Framework: Flask
+- Cloud Platform: ThingSpeak
+- Mobile Application: Blynk
+
+Key Features
+
+- Heart rate monitoring
+- Blood oxygen (SpO₂) monitoring
 - Body temperature monitoring
 - GPS-based location tracking
-- Machine learning-based health condition classification
+- Machine-learning-based health condition classification
 - Health alerts and notifications
 
-## Machine Learning Implementation
+Machine Learning Implementation
 
-Multiple classification algorithms were implemented and evaluated, including:
+Multiple classification algorithms were implemented and evaluated as part of the project:
 
 - Decision Tree
 - Support Vector Machine (SVM)
@@ -32,14 +53,16 @@ Multiple classification algorithms were implemented and evaluated, including:
 - Logistic Regression
 - Random Forest
 
-Random Forest was used for health condition classification.
+Random Forest was used for health condition classification in the system.
 
-## Project Outcome
+Project Outcome
 
-The system integrates IoT sensors, GPS tracking and machine learning to support continuous pet health monitoring and location tracking.
+The project integrates IoT sensors, GPS technology and machine learning into a pet monitoring system. It demonstrates the application of embedded systems and machine-learning techniques for health parameter monitoring, location tracking and health condition classification.
 
-## Project Type
+Project Information
 
-Bachelor of Engineering – Final Year Major Project
+Project Title: Smart Pet Collar – Health Monitoring and Location Tracking
 
-**Domain:** Internet of Things (IoT), Machine Learning and Artificial Intelligence
+Project Type: Bachelor's Degree – Final Year Major Project
+
+Domain: Internet of Things (IoT), Machine Learning and Artificial Intelligence
